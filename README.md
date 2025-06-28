@@ -1,3 +1,6 @@
+
+![Mallard](https://github.com/user-attachments/assets/491094c7-67f9-4606-89be-8a03ad7890df)
+
 # 🦆 Mallard-TavernTools
 
 A curated collection of storytelling resources for use with [SillyTavern](https://github.com/SillyTavern/SillyTavern), focused on immersive roleplay and AI-assisted narrative control.
