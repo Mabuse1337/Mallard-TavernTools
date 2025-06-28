@@ -36,16 +36,15 @@ Loading both files (main and Moonlit) provides rich visuals like custom blur, sh
 
 ### `presets/`
 
-Model-specific configurations for:
-- 🧠 Qwen 3 (3B to 235B)
-- 🧠 DeepSeek-MoE
-- 🧠 Mistral, Mixtral, and others
+Custom configurations for use with a variety of language models in SillyTavern.
 
 Presets include:
-- Thought tag formatting (`<think>...</think>`)![Ports_00061_](https://github.com/user-attachments/assets/4e15ae43-e39c-4c5c-a7c9-0f06199233b6)
 
-- Grounded system prompts with no padding or AI overreach
-- Roleplay-safe post-history instructions
+- Support for structured thought formatting using `<think>...</think>` tags (where appropriate)  
+- Grounded system prompts designed to prevent padding, rambling, or overreach  
+- Post-history instructions optimized for immersive and controlled roleplay behavior  
+
+These presets are designed to adapt across multiple models and will be expanded over time.
 
 ---
 
