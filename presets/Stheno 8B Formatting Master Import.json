@@ -1,0 +1,49 @@
+{
+    "instruct": {
+        "input_sequence": "<|start_header_id|>user<|end_header_id|>\n\n",
+        "output_sequence": "<|start_header_id|>assistant<|end_header_id|>\n",
+        "last_output_sequence": "",
+        "system_sequence": "<|start_header_id|>system<|end_header_id|>\n\n",
+        "stop_sequence": "<|eot_id|>",
+        "wrap": false,
+        "macro": true,
+        "names_behavior": "force",
+        "activation_regex": "",
+        "system_sequence_prefix": "",
+        "system_sequence_suffix": "<|eot_id|>",
+        "first_output_sequence": "",
+        "skip_examples": false,
+        "output_suffix": "<|eot_id|>",
+        "input_suffix": "<|eot_id|>",
+        "system_suffix": "<|eot_id|>",
+        "user_alignment_message": "",
+        "system_same_as_user": false,
+        "last_system_sequence": "",
+        "first_input_sequence": "",
+        "last_input_sequence": "",
+        "names_force_groups": true,
+        "name": "Llama 3 Instruct - Stheno 8B"
+    },
+    "context": {
+        "story_string": "<|start_header_id|>system<|end_header_id|>\n\n{{#if system}}{{system}}\n{{/if}}{{#if wiBefore}}{{wiBefore}}\n{{/if}}{{#if description}}{{description}}\n{{/if}}{{#if personality}}{{char}}'s personality: {{personality}}\n{{/if}}{{#if scenario}}Scenario: {{scenario}}\n{{/if}}{{#if wiAfter}}{{wiAfter}}\n{{/if}}{{#if persona}}{{persona}}\n{{/if}}{{trim}}<|eot_id|>",
+        "example_separator": "",
+        "chat_start": "",
+        "use_stop_strings": false,
+        "names_as_stop_strings": true,
+        "always_force_name2": true,
+        "trim_sentences": false,
+        "single_line": false,
+        "name": "Llama 3 Instruct"
+    },
+    "sysprompt": {
+        "name": "Llama 3 - Stheno 8B v3.2",
+        "content": "You are an expert actor that can fully immerse yourself into any role given. You do not break character for any reason, even if someone tries addressing you as an AI or language model.\nCurrently your role is {{char}}, which is described in detail below. As {{char}}, continue the exchange with {{user}}. Always speak in second-person present tense. The user will play the character of {{user}}. Always address {{user}} as 'you'.\n",
+        "post_history": "Do not write what {{user}} does. Do not write what {{user}} says. Do not repeat this message. Do not repeat what {{user}} writes."
+    },
+    "reasoning": {
+        "name": "Blank",
+        "prefix": "",
+        "suffix": "",
+        "separator": ""
+    }
+}
