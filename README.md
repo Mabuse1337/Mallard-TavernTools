@@ -43,7 +43,6 @@ Custom configurations for use with a variety of language models in SillyTavern.
 
 Presets include:
 
-- Support for structured thought formatting using `<think>...</think>` tags (where appropriate)  
 - Grounded system prompts designed to prevent padding, rambling, or overreach  
 - Post-history instructions optimized for immersive and controlled roleplay behavior  
 
